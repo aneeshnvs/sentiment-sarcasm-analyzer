@@ -8,7 +8,7 @@ This project is a real-time, deep learning-based **Sentiment and Sarcasm Detecti
 
 ---
 
-## 📊 Why This Project Was Built
+## Why This Project Was Built
 
 This app was designed to solve a key problem in NLP: **sentiment models often misinterpret sarcasm**. For example, the phrase:
 
@@ -23,18 +23,18 @@ contains positive words but negative intent. The goal was to:
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-* ✅ LSTM-based **Sentiment Classifier** trained on real-world reviews
-* ✅ LSTM-based **Sarcasm Detector** trained on headline sarcasm data
-* ✅ Web interface built with **Streamlit**
-* ✅ Detects and **flags sarcasm** before showing sentiment
-* ✅ Shows **confidence scores** and raw logits for better insight
-* ✅ Modular code structure with preprocessing, model training, and app layers
+* LSTM-based **Sentiment Classifier** trained on real-world reviews
+*  LSTM-based **Sarcasm Detector** trained on headline sarcasm data
+*  Web interface built with **Streamlit**
+*  Detects and **flags sarcasm** before showing sentiment
+*  Shows **confidence scores** and raw logits for better insight
+*  Modular code structure with preprocessing, model training, and app layers
 
 ---
 
-## 🚧 Tech Stack
+## Tech Stack
 
 * **Programming Language**: Python 3.10
 * **Machine Learning**: TensorFlow / Keras, scikit-learn
@@ -44,7 +44,7 @@ contains positive words but negative intent. The goal was to:
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 sentiment_project/
@@ -68,20 +68,20 @@ sentiment_project/
 
 ---
 
-## ⚡ How It Works
+## How It Works
 
-### ✅ Step 1: Preprocessing
+### Step 1: Preprocessing
 
 * Cleans text (lowercase, removes URLs/usernames/punctuation)
 * Removes stopwords using NLTK
 * Applies tokenization and padding
 
-### ✅ Step 2: Model Training
+### Step 2: Model Training
 
 * **Sentiment model**: LSTM trained on labeled review data
 * **Sarcasm model**: LSTM trained on sarcasm-labeled headlines
 
-### ✅ Step 3: Inference in Streamlit App
+### Step 3: Inference in Streamlit App
 
 * User submits text
 * App predicts sarcasm first
@@ -123,7 +123,7 @@ Open [http://localhost:8501](http://localhost:8501) in your browser.
 
 ---
 
-## 🔢 Example Inputs to Try
+## Example Inputs to Try
 
 | Input Text                                         | Expected Result                                     |
 | -------------------------------------------------- | --------------------------------------------------- |
@@ -134,7 +134,7 @@ Open [http://localhost:8501](http://localhost:8501) in your browser.
 
 ---
 
-## 📈 Future Work
+## Future Work
 
 * Save tokenizers as `.pkl` for faster load
 * Add emoji/sentiment visualizations in UI
@@ -153,6 +153,3 @@ Open [http://localhost:8501](http://localhost:8501) in your browser.
 
 ---
 
-## 📝 License
-
-This project is licensed under the MIT License.
